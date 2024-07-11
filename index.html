@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+     <link rel="stylesheet" href="stykis.css">
+    <title>Document</title>
+  </head>
+  
+  <div id="authContainer">
+    <div id="signup" style="display: grid; place-items: center; padding-top: 15vh;">
+
+        <div class="form-box">
+            <div class="form">
+                <span class="title">Sign up</span>
+                <span class="subtitle">Create a free account with your email.</span>
+                <div class="form-container">
+                    <input type="text" id="fullName" class="input" placeholder="Your Name">
+                    <input type="email" id="signupEmail" class="input" placeholder="Email">
+                    <input type="password" id="signupPass" class="input" placeholder="Password">
+                </div>
+                <button id="signupBtn">Sign up</button>
+            </div>
+          
+        </div>
+    </div>
+
+    <div id="signup" style="display: grid; place-items: center; margin-top: 50vh; padding-bottom: 20vh;">
+
+        <div class="form-box">
+            <div class="form">
+                <span class="title">Login</span>
+                <span class="subtitle">Have An Account ?</span>
+                <div class="form-container">
+                    <input type="text" id="fullName" class="input" placeholder="Your Name">
+                    <input type="email" id="loginEmail" class="input" placeholder="Email">
+                    <input type="password" id="loginPass" class="input" placeholder="Password">
+                </div>
+                <button id="loginBtn">Log In</button>
+            </div>
+          
+        </div>
+    </div>
+
+    </div>
+    
+
+    <div id="user_container">
+        <h1 id="userEmail"></h1>
+        <button id="logoutBtn">Logout</button>
+    </div>
+
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
